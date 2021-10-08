@@ -1,3 +1,3 @@
 function calculo() {
-    alert("polla");
+    alert("Danny Larrea es genial");
 }
