@@ -25,7 +25,22 @@ input[type=submit] {
     cursor: pointer;
 }
 
+button {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 input[type=submit]:hover {
+    background-color: rgba(255, 166, 0, 0.906);
+}
+
+button:hover {
     background-color: rgba(255, 166, 0, 0.906);
 }
 
