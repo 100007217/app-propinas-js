@@ -15,7 +15,7 @@ select {
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 45%;
     background-color: orange;
     color: white;
     padding: 14px 20px;
@@ -23,9 +23,26 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 10%;
+}
+
+button {
+    width: 45%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
 }
 
 input[type=submit]:hover {
+    background-color: rgba(255, 166, 0, 0.906);
+}
+
+button:hover {
     background-color: rgba(255, 166, 0, 0.906);
 }
 
